@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje Enviado - Alejandro M. Tineo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#1a202c',
+                        light: '#f7fafc',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light dark:bg-dark text-dark dark:text-light transition-colors duration-500">
+    <div class="min-h-screen flex items-center justify-center px-4">
+        <div class="max-w-md w-full text-center">
+            <div class="mb-6">
+                <svg class="w-24 h-24 mx-auto text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+            </div>
+            <h1 class="text-4xl font-bold mb-4 gradient-text">Mensaje Enviado</h1>
+            <p class="text-xl mb-8">Tu mensaje se envió correctamente. Alejandro se pondrá contigo lo más rápido posible.</p>
+            <a href="index.html" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg inline-block">Volver al Portafolio</a>
+        </div>
+    </div>
+</body>
+</html>

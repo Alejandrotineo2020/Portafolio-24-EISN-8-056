@@ -1,0 +1,29 @@
+
+.gradient-text {
+    background: -webkit-linear-gradient(45deg, #6366f1, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Wave Animation */
+@keyframes wave {
+  0% {
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.7),
+                0 0 0 0 rgba(168, 85, 247, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(99, 102, 241, 0),
+                0 0 0 20px rgba(168, 85, 247, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(99, 102, 241, 0),
+                0 0 0 40px rgba(168, 85, 247, 0);
+  }
+}
+
+.image-wave {
+  animation: wave 2s infinite;
+}
